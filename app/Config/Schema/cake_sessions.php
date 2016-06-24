@@ -1,6 +1,6 @@
 <?php
 
-/* Dblogs schema generated on: 2011-06-12 11:06:13 : 1307847253 */
+/* CakeSessions schema generated on: 2011-06-12 11:06:13 : 1307847253 */
 
 class CakeSessionsSchema extends CakeSchema {
 
@@ -17,7 +17,7 @@ class CakeSessionsSchema extends CakeSchema {
 	public function after($event = array()) {
 	}
 
-	public $dblogs = array(
+	public $cake_sessions = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 8, 'key' => 'primary'),
 		'date' => array('type' => 'text', 'null' => true, 'default' => null),
 		'expires' => array('type' => 'integer', 'null' => true, 'default' => null, 'length' => 11),
